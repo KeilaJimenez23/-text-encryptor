@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="encriptador.css">
+</head>
+    
+ <body>
+    <div class="container">
+        <div class="encriptar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" border-style="dotted" placeholder="Ingresa el texto aquí"></textarea>
+
+        
+        <div class="terminos">
+            <p>Solo letras minusculas y sin acentos</p>
+        </div>
+        <div class="botones">
+            <button class="btn-encriptar" type="button" onclick="encriptar()">
+                   Encriptar
+            </button>
+            <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()">
+        </div> 
+        </div>
+
+    
+     <div class="encriptado">
+        <img src="https://img.freepik.com/vector-premium/mirando-algo-lupa-hombre-divertido-mirar-ojo-lupa-investigacion-verificacion-inspeccion-concepto-caricatura-persona-estudiante-retrato-personaje_81894-10770.jpg" alt="">
+        <div class="mensaje-encriptado" id="mensaje-encriptado">
+            <h2 id="titulo-mensaje">Ningun mensaje encontrado</h2>
+            <p id="Parrafo a">Ingresa el texto que deseas encriptar o desencriptar</p>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        </div>
+     </div>
+    </div>
+ </body>
+ <script src="encriptador.js"></script>
+</html>
